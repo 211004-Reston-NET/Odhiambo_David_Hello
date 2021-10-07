@@ -46,3 +46,4 @@ do
 		echo "not a duck"
 	fi
 done
+#need to try edditing the file through code "'${var_list//[[:space:]]/"','"}'"
