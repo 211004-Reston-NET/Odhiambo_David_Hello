@@ -10,7 +10,7 @@ namespace CollectionFunction
 
         List<string> myStrings = new List<string>();
         List<int> myNumbers = new List<int>();
-        List<string> itemList = new List<string>();
+        List<string> fruitList = new List<string>();
 
         /**
         the compiler will always give a default constructor for the class
@@ -41,7 +41,24 @@ namespace CollectionFunction
             "Cherimoya (Custard Apple)", "Cherry", "Chico fruit" , "Cloudberry",
             "Coco De Mer", "Coconut", "Crab apple","Cranberry","Currant","Damson",
             "Date", "Dragonfruit (or Pitaya)", "Durian", "Egg Fruit", "Elderberry",
-            "Feijoa","Fig") 
+            "Feijoa","Fig");
+
+            //going throu the list using a foreach 
+
+            Console.Writeline("*******************Our Foreach*******************");
+            foreach (string fruit in fruitList)
+            {
+                Console.Writeline(fruit);
+            }
+
+            Console.Writeline("********************** For loop Demo **************");/**for loop
+            is more friendlier in customizing iterations of a list because then you can change the 
+            the condidtions  */
+
+            for (int i = 0; i<fruitList.count; i++)   {
+                Console.Writeline("the currently available fruits are : ")
+                
+            }        
             
         }
 
